@@ -6,10 +6,4 @@ menuBtn.onclick = () => {
     navLinks.classList.toggle("active");
 };
 
-// when we click links close navlinks
-document.querySelectorAll("#navLinks a").forEach(link => {
-    link.onclick = () => {
-        navLinks.classList.remove("active");
-    };
-});
 
